@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./reset.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Demo Rest API</title>
+    </head>
+    <body>
+        <div>
+            <h2 class="heading">Danh sách sinh viên</h2>
+            <div id="list-courses"></div>
+        </div>
+        <form action="" class="form-post" method="post">
+            <div>
+                <label>URL:</label>
+                <input
+                    type="text"
+                    name="image"
+                    placeholder="Enter your URL image"
+                />
+            </div>
+            <div>
+                <label>Name:</label>
+                <input type="text" name="name" placeholder="Enter your fullname" />
+            </div>
+            
+            <label>Student Code:</label>
+            <input
+                type="text"
+                name="code"
+                placeholder="Enter your student code"
+            />
+            <button type="submit">Add post</button>
+        </form>
+        <script src="./app.js"></script>
+    </body>
+</html>

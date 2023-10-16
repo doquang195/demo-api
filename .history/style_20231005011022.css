@@ -1,0 +1,98 @@
+body,
+button,
+input {
+    font-family: "Poppins", sans-serif;
+}
+
+.heading {
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 25px;
+}
+
+.form-post input {
+    padding: 10px 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.form-post button {
+    background-color: #6a5af9;
+    color: white;
+    border: 0;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.student-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px 0;
+    padding: 25px;
+}
+
+.student-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 220px;
+    flex-shrink: 0;
+    background-color: #eee;
+    border-radius: 8px;
+}
+
+.item-top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.student-image {
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.student-infor {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.student-remove,
+.student-edit {
+    position: absolute;
+    top: -16px;
+    right: 2px;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.student-remove i,
+.student-edit i {
+    pointer-events: none;
+}
+
+.student-edit {
+    right: 35px;
+    bottom: -100px;
+}

@@ -1,0 +1,56 @@
+{
+  "courses": [
+    {
+      "image": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
+      "studentCode": "flower",
+      "author": " Sergey Shmidt",
+      "rating": 5,
+      "price": 99,
+      "bestSeller": true,
+      "buyAmount": 99,
+      "id": 1
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80",
+      "title": "Selective focus photography",
+      "author": "demo",
+      "rating": 5,
+      "price": 99,
+      "bestSeller": false,
+      "buyAmount": 99,
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "title": "ads",
+      "author": "asa",
+      "id": 8
+    },
+    {
+      "image": "iui",
+      "studentCode": "hjhjd",
+      "name": "huhdw",
+      "id": 9
+    },
+    {
+      "image": "jggah",
+      "studentCode": "A41939",
+      "name": "Đinh Quang Đỗ",
+      "id": 10
+    }
+  ]
+}

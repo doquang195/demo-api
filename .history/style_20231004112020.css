@@ -1,0 +1,13 @@
+body {
+}
+
+#list-courses {
+    display: flex;
+    justify-content: center;
+}
+
+.course-item {
+    width: 300px;
+    height: 300px;
+    flex-
+}

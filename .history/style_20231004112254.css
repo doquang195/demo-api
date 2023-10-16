@@ -1,0 +1,9 @@
+body {
+}
+
+#list-courses {
+    display: flex;
+    justify-content: center;
+}
+
+
